@@ -1,0 +1,214 @@
+<!DOCTYPE html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Análise de Produção fotográfica</title>
+<style>
+:root{--navy:#173f73;--blue:#1479e8;--blue2:#4ca6ff;--green:#45cf9a;--line:#dbe7f5;--muted:#7083a3;--bg:#f7fbff}*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#fff 0,#f7fbff 100%);color:#18345f}.page{max-width:1420px;margin:0 auto;padding:22px 30px 28px}header{background:transparent;color:var(--navy);padding:0 20px 18px;display:flex;align-items:flex-start}header h1{margin:0 0 4px;font-size:32px;letter-spacing:-.6px}header p{margin:0;color:#7185a5;font-size:20px}.updated{margin-left:auto;text-align:right;color:#7083a3;font-size:13px;line-height:1.5;padding-top:5px}.updated strong{font-size:15px;color:#23457c}.updated:before{content:'▣';font-size:24px;color:#7185a5;margin-right:12px;vertical-align:middle}.container{padding:0}.toolbar,.card,.panel,.quote{background:#fff;border:1px solid var(--line);border-radius:15px;box-shadow:0 3px 14px rgba(38,88,145,.08)}.toolbar{padding:18px 20px;display:flex;gap:16px;align-items:end;flex-wrap:wrap;margin-bottom:16px}.field{display:flex;flex-direction:column;gap:7px;min-width:200px}.field label{font-size:14px;color:var(--navy);font-weight:bold}select,input,button{font:inherit;border:1px solid #cbdcf0;border-radius:10px;padding:10px 12px;background:#fff;color:#173b73}select{height:44px}button{cursor:pointer;background:var(--blue);color:#fff;border-color:var(--blue);font-weight:bold}button.secondary{background:#fff;color:var(--blue)}button.danger{background:#b94a48;border-color:#b94a48}.hero-cards{display:grid;grid-template-columns:1fr 1fr 1.35fr;gap:18px;margin-bottom:16px}.metric{padding:20px 24px;min-height:116px;display:flex;align-items:center;gap:20px}.metric-icon{width:64px;height:64px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:30px;background:#35cf91;color:#fff;flex:none}.metric:nth-child(2) .metric-icon{background:#1683ee}.metric .label{font-size:16px;color:var(--navy);font-weight:normal}.metric .value{font-size:42px;font-weight:bold;color:#173f73;margin-top:6px}.quote{padding:20px 28px;display:flex;align-items:center;justify-content:space-between;background:linear-gradient(100deg,#f2f9ff,#e8f3ff)}.quote-text{font-size:19px;color:#637998;font-style:italic;line-height:1.3}.quote-mark{font-size:18px;font-weight:bold;color:#173f73;line-height:1.05;text-align:right}.grid{display:grid;grid-template-columns:1.15fr .9fr;gap:16px;margin-bottom:16px}.grid-bottom{display:grid;grid-template-columns:1fr 1fr 1.35fr;gap:16px;margin-bottom:16px}.panel{padding:18px}.panel h2{font-size:19px;margin:0 0 12px;color:var(--navy)}.chart{width:100%;height:290px;overflow:hidden}.chart svg{width:100%;height:100%}.status{margin-left:auto;color:var(--muted);font-size:12px}.adminbar{display:flex;gap:10px;align-items:center;justify-content:flex-end;margin:8px 0 16px}.admin{display:none}.admin.show{display:block}.admin-login{display:none;background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:16px}.admin-login.show{display:flex;gap:10px;align-items:end;flex-wrap:wrap}.admin-login .field{min-width:240px}.add{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-bottom:12px}.wide{grid-column:span 2}.note{font-size:12px;color:var(--muted);margin-top:10px}.editmode{background:#fef3c7;border:1px solid #f59e0b;border-radius:8px;padding:10px;margin:8px 0 12px;font-size:12px;color:#92400e}.editbtn{background:#5b9bd5;border-color:#5b9bd5;padding:5px 8px}.cancelbtn{background:#fff;color:#92400e;border-color:#f59e0b;padding:5px 8px}.tablewrap{overflow:auto;max-height:500px;border:1px solid var(--line);border-radius:8px}table{border-collapse:collapse;width:100%;font-size:13px}th,td{padding:8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}th{background:var(--navy);color:#fff;position:sticky;top:0}td.num{text-align:right}tr:hover td{background:#f8fafc}.lock{font-size:12px;color:var(--muted)}.footer{display:flex;justify-content:space-between;color:#7387a7;font-size:13px;padding:4px 4px 0}@media(max-width:1000px){.hero-cards,.grid,.grid-bottom{grid-template-columns:1fr 1fr}.quote{grid-column:span 2}}@media(max-width:700px){header{display:block}.updated{text-align:left;margin-top:8px}.hero-cards,.grid,.grid-bottom{grid-template-columns:1fr}.quote{grid-column:auto}.toolbar .field{min-width:160px}.add{grid-template-columns:1fr 1fr}.footer{display:block}.footer span{display:block;margin-bottom:6px}}@media(max-width:560px){.page{padding:12px}.hero-cards,.grid,.grid-bottom{grid-template-columns:1fr}.add{grid-template-columns:1fr}header h1{font-size:25px}}
+</style></head><style>
+:root{--navy:#173f73;--blue:#173f73;--green:#49c98b;--orange:#4f8f8b;--purple:#7567e8;--pink:#ef4f70;--teal:#1fc0c0;--yellow:#ffd34d;--line:#cfe0f2;--bg:#f4f8fc;--muted:#7083a3}*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:linear-gradient(180deg,#fff,#eef6fd);color:#18345f}.page{max-width:1500px;margin:0 auto;padding:6px}.layout{display:grid;grid-template-columns:175px 1fr;min-height:100vh;box-shadow:0 0 20px rgba(26,68,112,.08)}.sidebar{background:linear-gradient(180deg,#17233c,#1b2947);color:#fff;padding:22px 12px;position:relative}.brand{text-align:center;margin-bottom:22px}.brandmark{margin:auto;width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,#fff,#dfe6ef);color:#173f73;font-size:40px;font-weight:bold;display:flex;align-items:center;justify-content:center;border:2px solid #dbe7f5}.brandname{font-size:16px;font-weight:bold;margin-top:8px}.side-title{font-size:12px;font-weight:bold;margin:10px 3px;color:#cbdcf0}.side-field{margin:12px 0}.side-field label{display:block;font-size:11px;font-weight:bold;margin-bottom:6px}.side-field select{width:100%;height:38px;padding:6px 8px;border:1px solid #83b9f4;border-radius:7px;background:#263858;color:#fff}.clear{width:100%;padding:10px 6px;border:0;border-radius:9px;background:#1479e8;color:#fff;font-weight:bold;cursor:pointer;margin-top:8px}.side-footer{position:absolute;bottom:16px;left:12px;right:12px;font-size:8px;color:#b9c8dd;line-height:1.5}.main{padding:18px 20px 12px;background:rgba(255,255,255,.58);overflow:hidden}header{display:flex;justify-content:space-between;align-items:flex-start;margin:0 5px 18px}header h1{margin:0 0 2px;font-size:32px;color:#092e76;letter-spacing:-.6px}header p{margin:0;color:#7185a5;font-size:21px}.updated{display:flex;gap:10px;align-items:center;color:#7185a5;font-size:12px;line-height:1.4}.updated span{font-size:25px;color:#7185a5}.updated strong{color:#173b73;font-size:14px}.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:16px}.card,.panel,.admin-login{background:#fff;border:1px solid var(--line);border-radius:13px;box-shadow:0 3px 13px rgba(38,88,145,.08)}.metric{min-height:104px;padding:15px 18px;display:flex;align-items:center;gap:16px}.metric-icon{width:56px;height:56px;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:30px;flex:none}.metric-icon.green{background:var(--green)}.metric-icon.blue{background:var(--blue)}.metric-icon.pale{background:#dff0ff;color:var(--blue)}.metric-icon.orange{background:var(--orange)}.label{font-size:15px;color:var(--navy)}.value{font-size:34px;font-weight:bold;color:#092e76;line-height:1.05;margin-top:4px}.pct{font-size:13px;color:#5e7394;margin-top:2px}.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}.rowwide{margin-bottom:14px}.row3two{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:14px}.rowBottom{display:grid;grid-template-columns:1.1fr .9fr;gap:14px}.donut-panel .chart{display:flex;align-items:center;justify-content:center}.donut-chart svg{width:100%;height:100%;max-width:360px;object-fit:contain}.panel{padding:14px 16px;min-width:0}.panel h2{margin:0 0 7px;font-size:17px;color:#092e76}.chart{height:245px;width:100%;overflow:hidden}.rowwide .chart{height:185px}.row3 .chart{height:215px}svg{display:block;width:100%;height:100%}.adminbar{display:flex;justify-content:flex-end;align-items:center;gap:10px;margin-top:12px;color:#718096;font-size:12px}.secondary{background:#fff!important;color:#1479e8!important;border:1px solid #b8d5f3!important;padding:9px 12px;border-radius:9px;font-weight:bold;cursor:pointer}.admin-login{display:none;padding:14px;margin-top:10px}.admin-login.show{display:flex;gap:10px;align-items:end}.field{display:flex;flex-direction:column;gap:5px;min-width:170px}.field label{font-size:11px;font-weight:bold;color:#173b73}.field input,.field select{height:38px;border:1px solid #cbdcf0;border-radius:8px;padding:8px}.admin{display:none}.admin.show{display:block;margin-top:12px}.add{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:10px}.wide{min-width:260px;flex:1}button{font:inherit;cursor:pointer;background:var(--blue);color:#fff;border:1px solid var(--blue);border-radius:8px;padding:9px 12px;font-weight:bold}.tablewrap{overflow:auto;max-height:480px}table{width:100%;border-collapse:collapse;font-size:12px}th,td{padding:7px;border-bottom:1px solid #e3edf7;text-align:left}th{background:#173b73;color:#fff;position:sticky;top:0}.num{text-align:right}.danger{background:#b94a48;border-color:#b94a48;padding:5px 8px}.editbtn{background:#fff;color:#1479e8;border:1px solid #b8d5f3;padding:5px 8px}footer{display:flex;justify-content:space-between;margin:13px 4px 0;color:#7083a3;font-size:10px}@media(max-width:1000px){.layout{grid-template-columns:1fr}.sidebar{position:relative}.side-footer{position:static;margin-top:20px}.kpis{grid-template-columns:repeat(2,1fr)}.row2,.row3two,.rowBottom{grid-template-columns:1fr}.main{padding:14px}.updated{font-size:10px}header h1{font-size:25px}}
+</style><body><div class="page"><div class="layout"><aside class="sidebar"><div class="brand"><div class="brandmark" aria-label="Câmera">
+<svg viewBox="0 0 64 64" width="42" height="42" aria-hidden="true">
+  <rect x="9" y="19" width="46" height="31" rx="6" fill="none" stroke="currentColor" stroke-width="3.5"/>
+  <path d="M20 19l4-7h16l4 7" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="32" cy="34.5" r="9" fill="none" stroke="currentColor" stroke-width="3.5"/>
+  <circle cx="47" cy="27" r="2.2" fill="currentColor"/>
+</svg>
+</div><div class="brandname">Fotos<br>de domingo</div></div><div class="side-title">Filtros</div><div class="side-field"><label>Ano</label><select id="fYear"><option>2026</option></select></div><div class="side-field"><label>Mês</label><select id="fMonth"><option>Todos</option></select></div><div class="side-field"><label>Editoria</label><select id="fEditor"><option>Todos</option></select></div><div class="side-field"><label>ABRE</label><select id="fOpen"><option>Todos</option><option>Sim</option><option>Não</option></select></div><button class="clear" onclick="resetFilters()">↻ &nbsp; Limpar filtros</button><div class="side-footer">Fotos de domingo<br>Análise de Produção fotográfica</div></aside><main class="main"><div id="status" aria-live="polite" style="display:none"></div><header><div><h1>Análise de Produção fotográfica</h1><p>Fotos de domingo</p></div><div class="updated"><div>Última atualização<br><strong>27 de setembro de 2026</strong></div></div></header><section class="kpis"><div class="metric card"><div class="metric-icon green">▧</div><div><div class="label">Total de fotos</div><div class="value" id="kPhotos">0</div></div></div><div class="metric card"><div class="metric-icon blue">▤</div><div><div class="label">Total de matérias</div><div class="value" id="kMatters">0</div></div></div><div class="metric card"><div class="metric-icon pale">▥</div><div><div class="label">Fotos de abre</div><div class="value" id="kOpen">0</div><div class="pct" id="kOpenPct">0,0%</div></div></div><div class="metric card"><div class="metric-icon orange">◷</div><div><div class="label">Fotos não abre</div><div class="value" id="kNoOpen">0</div><div class="pct" id="kNoOpenPct">0,0%</div></div></div></section><section class="row2"><div class="panel"><h2>Produção mensal (2026)</h2><div id="chartMonth" class="chart"></div></div><div class="panel"><h2>Produção x Abre (mensal)</h2><div id="chartAbre" class="chart"></div></div></section><section class="row3two"><div class="panel"><h2>Produção por editoria</h2><div id="chartEditor" class="chart"></div></div><div class="panel"><h2>Top 6 principais temas</h2><div id="chartTheme" class="chart"></div></div></section><div class="adminbar"><span>Área de lançamentos protegida</span><button class="secondary" onclick="toggleLogin()" id="adminBtn">🔐 Área administrativa</button></div><div class="admin-login" id="loginBox"><div class="field"><label>SENHA ADMINISTRATIVA</label><input id="adminPassword" type="password" placeholder="Digite a senha"></div><button onclick="loginAdmin()">Entrar</button></div><div class="admin" id="adminArea"><div class="panel"><h2 id="formTitle">Adicionar novo lançamento</h2><div id="editNotice" class="editmode" style="display:none">Você está editando um lançamento.</div><div class="add"><div class="field"><label>MÊS</label><input id="nMonth"></div><div class="field"><label>DIA</label><input id="nDay"></div><div class="field wide"><label>ASSUNTO</label><input id="nSubject"></div><div class="field"><label>EDITORIA</label><input id="nEditor"></div><div class="field"><label>FOTO</label><input id="nPhoto" type="number" value="1"></div><div class="field"><label>ABRE</label><select id="nOpen"><option>Não</option><option>Sim</option></select></div><div class="field"><label>TEMA</label><input id="nTheme"></div><div class="field"><label>TOPO</label><input id="nTop"></div></div><button id="formButton" onclick="addRecord()">Adicionar lançamento</button><button id="cancelEdit" class="secondary" onclick="cancelEdit()" style="display:none">Cancelar</button></div><div class="panel" style="margin-top:16px"><h2>Base de dados <span id="rowCount" style="font-size:12px;color:#718096"></span></h2><div class="tablewrap"><table id="dataTable"></table></div></div></div><footer><span>Fotos de domingo &nbsp;|&nbsp; Análise de Produção fotográfica</span><span>Dados atualizados automaticamente a partir da planilha do Google Sheets</span></footer></main></div></div><script>
+const API_URL='https://script.google.com/macros/s/AKfycbwTAEQrrhEdYL93DfpmUGdctKWqsexgMZMRRpN5Sv6d5TncfeZI6Flis8wcY1TzNqSv/exec';
+const monthsOrder=["Janeiro","Fevereiro","Março","Abril","Maio","Junho","Julho","Agosto","Setembro"];
+let adminPassword="", adminData=[], editingIndex=-1;const fYear=document.getElementById("fYear");
+const $=id=>document.getElementById(id), fMonth=$("fMonth"),fEditor=$("fEditor"),fOpen=$("fOpen"),status=$("status"),dataTable=$("dataTable"),kPhotos=$("kPhotos"),kMatters=$("kMatters");
+const nMonth=$("nMonth"),nDay=$("nDay"),nSubject=$("nSubject"),nEditor=$("nEditor"),nPhoto=$("nPhoto"),nOpen=$("nOpen"),nTheme=$("nTheme"),nTop=$("nTop");
+function fmt(n){return new Intl.NumberFormat('pt-BR').format(n||0)} function num(v){let n=Number(String(v).replace(',','.'));return isNaN(n)?0:n} function esc(v){return String(v??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+
+const summaryCache = new Map();
+const CACHE_TTL = 30000;
+let publicRequestId = 0;
+let filterTimer = null;
+
+function cacheKey(action,params){
+  return action+"|"+Object.keys(params).sort().map(k=>k+"="+String(params[k]??"")).join("&");
+}
+
+function jsonp(action,params={},timeoutMs=10000){
+  const key=cacheKey(action,params), now=Date.now(), cached=summaryCache.get(key);
+  if(cached && now-cached.time<CACHE_TTL) return Promise.resolve(cached.data);
+
+  return new Promise((resolve,reject)=>{
+    const cb='cb_'+Date.now()+'_'+Math.random().toString(36).slice(2);
+    const s=document.createElement('script');
+    const q=new URLSearchParams(Object.assign({acao:action,callback:cb},params));
+    let done=false;
+    const finish=(fn,v)=>{
+      if(done)return; done=true; clearTimeout(timer); delete window[cb]; s.remove(); fn(v);
+    };
+    const timer=setTimeout(()=>finish(reject,new Error('Tempo esgotado.')),timeoutMs);
+    window[cb]=r=>{
+      if(r && r.sucesso!==false) summaryCache.set(key,{time:Date.now(),data:r});
+      finish(resolve,r);
+    };
+    s.onerror=()=>finish(reject,new Error('Não foi possível acessar a base online.'));
+    s.src=API_URL+'?'+q.toString();
+    document.body.appendChild(s);
+  });
+}
+
+async function init(){
+  try{
+    const r=await jsonp('opcoes',{},10000);
+    if(!r.sucesso)throw Error(r.mensagem);
+    fMonth.innerHTML='<option>Todos</option>'+r.meses.map(x=>`<option>${esc(x)}</option>`).join('');
+    fEditor.innerHTML='<option>Todos</option>'+r.editorias.map(x=>`<option>${esc(x)}</option>`).join('');
+    await loadPublic();
+  }catch(e){
+    status.textContent='Erro ao carregar';
+    console.error(e);
+  }
+}
+
+async function loadPublic(){
+  const requestId=++publicRequestId;
+  status.textContent='Atualizando painel...';
+
+  const mes=fMonth.value, editoria=fEditor.value, abre=fOpen.value;
+  const mainParams={mes,editoria,abre};
+  const simParams={mes,editoria,abre:'Sim'};
+  const naoParams={mes,editoria,abre:'Não'};
+
+  try{
+    // As três consultas são feitas simultaneamente.
+    const [main,sim,nao]=await Promise.all([
+      jsonp('resumo',mainParams),
+      jsonp('resumo',simParams),
+      jsonp('resumo',naoParams)
+    ]);
+
+    // Ignora respostas de um filtro anterior que terminou depois.
+    if(requestId!==publicRequestId)return;
+
+    if(!main.sucesso)throw Error(main.mensagem||'Não foi possível carregar o resumo.');
+    renderSummary(main.resumo||{});
+
+    const ms=sim&&sim.sucesso!==false ? ((sim.resumo&&sim.resumo.mensal)||sim.mensal||{}) : {};
+    const mn=nao&&nao.sucesso!==false ? ((nao.resumo&&nao.resumo.mensal)||nao.mensal||{}) : {};
+    stackedChart('chartAbre',ms,mn);
+
+    status.textContent=`Base online • ${fmt(main.totalGeral)} lançamentos`;
+  }catch(e){
+    if(requestId!==publicRequestId)return;
+    status.textContent='Base online indisponível';
+    console.error(e);
+  }
+}
+
+function schedulePublicRefresh(){
+  clearTimeout(filterTimer);
+  filterTimer=setTimeout(loadPublic,120);
+}
+
+function clearDashboardCache(){
+  summaryCache.clear();
+}
+
+function renderSummary(s){
+ kPhotos.textContent=fmt(s.fotos);kMatters.textContent=fmt(s.materias);
+ const pct=s.fotos?((s.abertura/s.fotos)*100):0;
+ const nPct=s.fotos?((s.naoAbertura/s.fotos)*100):0;
+ $('kOpen').textContent=fmt(s.abertura);$('kOpenPct').textContent=pct.toFixed(1).replace('.',',')+'%';
+ $('kNoOpen').textContent=fmt(s.naoAbertura);$('kNoOpenPct').textContent=nPct.toFixed(1).replace('.',',')+'%';
+ lineChart('chartMonth',s.mensal||{});
+ verticalChart('chartEditor',Object.fromEntries(Object.entries(s.editoria||{}).sort((a,b)=>b[1]-a[1])));
+ let top6=Object.fromEntries(Object.entries(s.tema||{}).sort((a,b)=>b[1]-a[1]).slice(0,6));
+ horizontalChart('chartTheme',top6);
+}
+
+function verticalChart(id,obj){let el=$(id),a=Object.entries(obj);if(!a.length){el.innerHTML='<p>Sem dados.</p>';return}let W=700,H=285,left=45,bottom=58,top=22,right=18,max=Math.max(...a.map(x=>x[1]),1),colors=["#173f73","#4f8f8b"];let plotW=W-left-right,plotH=H-top-bottom,gap=plotW/a.length*.18,bw=plotW/a.length-gap;let s=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">`;for(let g=0;g<=4;g++){let yy=top+plotH-(plotH*g/4),val=Math.round(max*g/4);s+=`<line x1="${left}" y1="${yy}" x2="${W-right}" y2="${yy}" stroke="#e2e8f0"/><text x="${left-8}" y="${yy+4}" text-anchor="end" font-size="10" fill="#718096">${fmt(val)}</text>`}a.forEach(([lab,v],i)=>{let x=left+i*(plotW/a.length)+gap/2,h=plotH*v/max,y=top+plotH-h,c=colors[i%colors.length];s+=`<rect x="${x}" y="${y}" width="${bw}" height="${h}" rx="3" fill="${c}"><title>${esc(lab)}: ${fmt(v)} fotos</title></rect><text x="${x+bw/2}" y="${y-7}" text-anchor="middle" font-size="13" fill="#173f73" font-weight="700">${fmt(v)}</text><text x="${x+bw/2}" y="${H-bottom+18}" text-anchor="middle" font-size="11.5" fill="#526173" transform="rotate(-32 ${x+bw/2} ${H-bottom+18})">${esc(lab).slice(0,18)}</text>`});el.innerHTML=s+'</svg>'}
+function horizontalChart(id,obj){let el=$(id),a=Object.entries(obj);if(!a.length){el.innerHTML='<p>Sem dados.</p>';return}let W=700,H=Math.max(285,a.length*28+35),left=145,max=Math.max(...a.map(x=>x[1]),1),colors=["#173f73","#4f8f8b"],s=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">`;a.forEach(([lab,v],i)=>{let y=18+i*28,w=(W-left-30)*v/max,c=colors[i%colors.length];s+=`<text x="${left-8}" y="${y+12}" text-anchor="end" font-size="11" fill="#526173">${esc(lab).slice(0,22)}</text><rect x="${left}" y="${y}" width="${w}" height="16" rx="3" fill="${c}"><title>${esc(lab)}: ${fmt(v)}</title></rect><text x="${left+w+5}" y="${y+12}" font-size="13" fill="#173f73" font-weight="600">${fmt(v)}</text>`});el.innerHTML=s+'</svg>'}
+function verticalChart(id,obj){
+ let el=$(id),a=Object.entries(obj);
+ if(!a.length){el.innerHTML='<p>Sem dados.</p>';return}
+ let W=700,H=235,pL=42,pR=18,pT=28,pB=52,max=Math.max(...a.map(x=>x[1]),1);
+ let colors=["#173f73","#4f8f8b"];
+ let innerW=W-pL-pR, gap=18, bw=Math.min(58,(innerW-(a.length-1)*gap)/a.length);
+ let totalW=bw*a.length+gap*(a.length-1), start=pL+(innerW-totalW)/2;
+ let scale=(H-pT-pB)/max;
+ let s=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet"><line x1="${pL}" y1="${H-pB}" x2="${W-pR}" y2="${H-pB}" stroke="#d7dee8"/>`;
+ a.forEach(([lab,v],i)=>{
+   let x=start+i*(bw+gap),h=v*scale,y=H-pB-h,c=colors[i%colors.length];
+   s+=`<rect x="${x}" y="${y}" width="${bw}" height="${h}" rx="3" fill="${c}"><title>${esc(lab)}: ${fmt(v)}</title></rect>`;
+   s+=`<text x="${x+bw/2}" y="${y-7}" text-anchor="middle" font-size="11" font-weight="bold" fill="#173f73">${fmt(v)}</text>`;
+   let label=esc(lab);
+   if(lab.length>12 && lab.includes(" ")){
+     let parts=lab.split(" "), mid=Math.ceil(parts.length/2), l1=parts.slice(0,mid).join(" "), l2=parts.slice(mid).join(" ");
+     s+=`<text x="${x+bw/2}" y="${H-pB+18}" text-anchor="middle" font-size="10" fill="#526173">${esc(l1)}${l2?`<tspan x="${x+bw/2}" dy="12">${esc(l2)}</tspan>`:''}</text>`;
+   }else{
+     s+=`<text x="${x+bw/2}" y="${H-pB+18}" text-anchor="middle" font-size="10" fill="#526173">${label}</text>`;
+   }
+ });
+ el.innerHTML=s+'</svg>';
+}
+function lineChart(id,obj){let el=$(id),a=monthsOrder.filter(m=>(obj[m]||0)>0).map(m=>[m,obj[m]]);if(!a.length){el.innerHTML='<p>Sem dados.</p>';return}let W=700,H=285,p=45,max=Math.max(...a.map(x=>x[1]),1),pts=a.map((x,i)=>{let xx=p+i*((W-p-20)/Math.max(a.length-1,1)),yy=H-p-(x[1]/max)*(H-p-40);return[xx,yy,x]}),d='';if(pts.length===1)d=`M ${pts[0][0]} ${pts[0][1]}`;else{d=`M ${pts[0][0]} ${pts[0][1]}`;for(let i=0;i<pts.length-1;i++){let x0=pts[i][0],y0=pts[i][1],x1=pts[i+1][0],y1=pts[i+1][1],dx=(x1-x0)/2;d+=` C ${x0+dx} ${y0}, ${x1-dx} ${y1}, ${x1} ${y1}`}}let s=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><line x1="${p}" y1="${H-p}" x2="${W-10}" y2="${H-p}" stroke="#173f73"/><path d="${d}" fill="none" stroke="#173f73" stroke-width="3" stroke-linecap="round"/>`;pts.forEach(([x,y,[m,v]])=>s+=`<circle cx="${x}" cy="${y}" r="5" fill="#173f73"><title>${esc(m)}: ${fmt(v)}</title></circle><text x="${x}" y="${H-p+18}" text-anchor="middle" font-size="12" fill="#173f73">${esc(m).slice(0,3)}</text><text x="${x}" y="${y-9}" text-anchor="middle" font-size="13" fill="#173f73" font-weight="600">${fmt(v)}</text>`);el.innerHTML=s+'</svg>'}
+function cumulativeChart(id,obj){let el=$(id),running=0,a=monthsOrder.filter(m=>(obj[m]||0)>0).map(m=>{running+=num(obj[m]);return[m,running]});if(!a.length){el.innerHTML='<p>Sem dados.</p>';return}let W=700,H=285,p=45,max=Math.max(...a.map(x=>x[1]),1),pts=a.map((x,i)=>{let xx=p+i*((W-p-20)/Math.max(a.length-1,1)),yy=H-p-(x[1]/max)*(H-p-40);return[xx,yy,x]}),d='';if(pts.length===1)d=`M ${pts[0][0]} ${pts[0][1]}`;else{d=`M ${pts[0][0]} ${pts[0][1]}`;for(let i=0;i<pts.length-1;i++){let x0=pts[i][0],y0=pts[i][1],x1=pts[i+1][0],y1=pts[i+1][1],dx=(x1-x0)/2;d+=` C ${x0+dx} ${y0}, ${x1-dx} ${y1}, ${x1} ${y1}`}}let area=d+` L ${pts[pts.length-1][0]} ${H-p} L ${pts[0][0]} ${H-p} Z`;let s=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="none"><defs><linearGradient id="cumGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1479e8" stop-opacity="0.22"/><stop offset="100%" stop-color="#1479e8" stop-opacity="0.02"/></linearGradient></defs><line x1="${p}" y1="${H-p}" x2="${W-10}" y2="${H-p}" stroke="#173f73"/><path d="${area}" fill="url(#cumGrad)"/><path d="${d}" fill="none" stroke="#173f73" stroke-width="3" stroke-linecap="round"/>`;pts.forEach(([x,y,[m,v]])=>s+=`<circle cx="${x}" cy="${y}" r="5" fill="#173f73"><title>${esc(m)}: ${fmt(v)} acumuladas</title></circle><text x="${x}" y="${H-p+18}" text-anchor="middle" font-size="12" fill="#173f73">${esc(m).slice(0,3)}</text><text x="${x}" y="${y-9}" text-anchor="middle" font-size="13" fill="#173f73" font-weight="600">${fmt(v)}</text>`);el.innerHTML=s+'</svg>'}
+function stackedChart(id,simObj,naoObj){
+ let el=$(id),a=monthsOrder.filter(m=>(num(simObj[m])||0)+(num(naoObj[m])||0)>0);
+ if(!a.length){el.innerHTML='<p>Sem dados.</p>';return}
+ let W=700,H=245,pL=48,pR=18,pT=34,pB=44;
+ let totals=a.map(m=>num(simObj[m])+num(naoObj[m]));
+ let max=Math.max(...totals,1);
+ let plotH=H-pT-pB, plotW=W-pL-pR;
+ let bw=Math.min(48,plotW/a.length*.56);
+ let step=plotW/a.length;
+ let scale=plotH/max;
+ let s=`<svg viewBox="0 0 ${W} ${H}" preserveAspectRatio="xMidYMid meet">
+ <line x1="${pL}" y1="${H-pB}" x2="${W-pR}" y2="${H-pB}" stroke="#d7dee8"/>`;
+ for(let g=0;g<=4;g++){
+   let yy=H-pB-(plotH*g/4), val=Math.round(max*g/4);
+   s+=`<line x1="${pL}" y1="${yy}" x2="${W-pR}" y2="${yy}" stroke="#edf1f5"/>
+   <text x="${pL-8}" y="${yy+4}" text-anchor="end" font-size="10" fill="#718096">${fmt(val)}</text>`;
+ }
+ a.forEach((m,i)=>{
+   let sim=num(simObj[m]), nao=num(naoObj[m]), total=sim+nao;
+   let x=pL+i*step+(step-bw)/2;
+   let hs=sim*scale, hn=nao*scale;
+   let yNao=H-pB-hn, ySim=H-pB-hn-hs;
+   s+=`<rect x="${x}" y="${yNao}" width="${bw}" height="${hn}" rx="3" fill="#4f8f8b">
+     <title>${esc(m)} — Não abre: ${fmt(nao)}</title></rect>`;
+   s+=`<rect x="${x}" y="${ySim}" width="${bw}" height="${hs}" rx="3" fill="#173f73">
+     <title>${esc(m)} — Abre: ${fmt(sim)}</title></rect>`;
+   if(hs>=20)s+=`<text x="${x+bw/2}" y="${ySim+hs/2+5}" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">${fmt(sim)}</text>`;
+   if(hn>=20)s+=`<text x="${x+bw/2}" y="${yNao+hn/2+5}" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">${fmt(nao)}</text>`;
+   s+=`<text x="${x+bw/2}" y="${ySim-8}" text-anchor="middle" font-size="13" font-weight="700" fill="#173f73">${fmt(total)}</text>
+   <text x="${x+bw/2}" y="${H-pB+20}" text-anchor="middle" font-size="12" fill="#526173">${esc(m).slice(0,3)}</text>`;
+ });
+ s+=`<circle cx="${W-142}" cy="18" r="6" fill="#173f73"/>
+ <text x="${W-132}" y="22" font-size="12" fill="#526173">Abre</text>
+ <circle cx="${W-70}" cy="18" r="6" fill="#4f8f8b"/>
+ <text x="${W-60}" y="22" font-size="12" fill="#526173">Não abre</text></svg>`;
+ el.innerHTML=s
+}
+function donut(id,sim,nao){
+ let el=$(id),t=num(sim)+num(nao);
+ if(!t){el.innerHTML='<p>Sem dados.</p>';return}
+ sim=num(sim);nao=num(nao);
+ let pct=sim/t,r=78,cx=140,cy=115,C=2*Math.PI*r,off=C*pct;
+ el.innerHTML=`<svg viewBox="0 0 520 230" preserveAspectRatio="xMidYMid meet">
+ <circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="#4f8f8b" stroke-width="32"/>
+ <circle cx="${cx}" cy="${cy}" r="${r}" fill="none" stroke="#173f73" stroke-width="32" stroke-dasharray="${C}" stroke-dashoffset="${C-off}" transform="rotate(-90 ${cx} ${cy})"/>
+ <text x="${cx}" y="${cy+7}" text-anchor="middle" font-size="24" font-weight="bold" fill="#173f73">${(pct*100).toFixed(1).replace('.',',')}%</text>
+ <text x="${cx}" y="${cy+28}" text-anchor="middle" font-size="11" fill="#718096">abre</text>
+ <circle cx="305" cy="92" r="6" fill="#173f73"/><text x="318" y="96" font-size="12" fill="#526173">Abre: ${fmt(sim)} fotos</text>
+ <circle cx="305" cy="125" r="6" fill="#4f8f8b"/><text x="318" y="129" font-size="12" fill="#526173">Não abre: ${fmt(nao)} fotos</text>
+ </svg>`;
+}
+function toggleLogin(){$('loginBox').classList.toggle('show');if($('loginBox').classList.contains('show'))$('adminPassword').focus()}
+async function loginAdmin(){const p=$('adminPassword').value;if(!p){alert('Digite a senha.');return}status.textContent='Validando acesso...';try{const r=await jsonp('login',{senha:p});if(!r.sucesso)throw Error('Senha inválida.');adminPassword=p;$('loginBox').classList.remove('show');$('adminArea').classList.add('show');$('adminBtn').textContent='🔓 Área administrativa';await loadAdmin()}catch(e){adminPassword='';alert(e.message)}}
+async function loadAdmin(){try{const r=await jsonp('listar',{senha:adminPassword});if(!r.sucesso)throw Error(r.mensagem||'Acesso negado.');adminData=(r.dados||[]).map(x=>({id:x.id,MES:x.MES,DIA:x.DIA,ASSUNTO:x.ASSUNTO,EDITORIA:x.EDITORIA,FOTO:num(x.FOTO),ABRE:x.ABRE,TEMA:x.TEMA,topo:x.topo}));renderTable();status.textContent=`Área administrativa • ${fmt(adminData.length)} lançamentos`}catch(e){logoutAdmin();alert(e.message)}}
+function renderTable(){dataTable.innerHTML='<thead><tr>'+['MES','DIA','ASSUNTO','EDITORIA','FOTO','ABRE','TEMA','topo'].map(h=>`<th>${h}</th>`).join('')+'<th>Ações</th></tr></thead><tbody>'+adminData.map((r,i)=>'<tr>'+['MES','DIA','ASSUNTO','EDITORIA','FOTO','ABRE','TEMA','topo'].map(h=>`<td class="${h==='FOTO'?'num':''}">${esc(r[h])}</td>`).join('')+`<td><button class="editbtn" onclick="editRecord(${i})">Editar</button> <button class="danger" style="padding:5px 8px" onclick="removeRecord(${i})">Excluir</button></td></tr>`).join('')+'</tbody>'; $('rowCount').textContent=`(${fmt(adminData.length)} registros)`}
+function setForm(r){nMonth.value=r.MES||'';nDay.value=r.DIA||'';nSubject.value=r.ASSUNTO||'';nEditor.value=r.EDITORIA||'';nPhoto.value=num(r.FOTO);nOpen.value=r.ABRE||'Não';nTheme.value=r.TEMA||'';nTop.value=r.topo||''}
+function clearForm(){nMonth.value='';nDay.value='';nSubject.value='';nEditor.value='';nPhoto.value=1;nOpen.value='Não';nTheme.value='';nTop.value=''}
+function editRecord(i){editingIndex=i;setForm(adminData[i]);$('formTitle').textContent='Editar lançamento';$('editNotice').style.display='block';$('formButton').textContent='Salvar alterações';$('formButton').onclick=saveEdit;$('cancelEdit').style.display='inline-block'}
+function cancelEdit(){editingIndex=-1;clearForm();$('formTitle').textContent='Adicionar novo lançamento';$('editNotice').style.display='none';$('formButton').textContent='Adicionar lançamento';$('formButton').onclick=addRecord;$('cancelEdit').style.display='none'}
+async function addRecord(){const r={mes:nMonth.value.trim(),dia:nDay.value.trim(),assunto:nSubject.value.trim(),editoria:nEditor.value.trim(),foto:num(nPhoto.value),abre:nOpen.value,tema:nTheme.value.trim(),topo:nTop.value.trim()};if(!r.mes||!r.assunto){alert('Preencha pelo menos MÊS e ASSUNTO.');return}try{const x=await jsonp('adicionar',Object.assign({senha:adminPassword},r));if(!x.sucesso)throw Error(x.mensagem);clearForm();await loadAdmin();await loadPublic();alert('Lançamento adicionado com sucesso.')}catch(e){alert(e.message)}}
+async function saveEdit(){if(editingIndex<0)return;const r={mes:nMonth.value.trim(),dia:nDay.value.trim(),assunto:nSubject.value.trim(),editoria:nEditor.value.trim(),foto:num(nPhoto.value),abre:nOpen.value,tema:nTheme.value.trim(),topo:nTop.value.trim()};const id=adminData[editingIndex]?.id;if(!id)return;try{const x=await jsonp('editar',Object.assign({senha:adminPassword,id},r));if(!x.sucesso)throw Error(x.mensagem);cancelEdit();await loadAdmin();await loadPublic();alert('Lançamento alterado com sucesso.')}catch(e){alert(e.message)}}
+async function removeRecord(i){if(!confirm('Excluir este lançamento?'))return;const id=adminData[i]?.id;try{const x=await jsonp('excluir',{senha:adminPassword,id});if(!x.sucesso)throw Error(x.mensagem);await loadAdmin();await loadPublic()}catch(e){alert(e.message)}}
+function logoutAdmin(){adminPassword='';adminData=[];editingIndex=-1;cancelEdit();$('adminArea').classList.remove('show');$('adminPassword').value='';$('adminBtn').textContent='🔐 Área administrativa';dataTable.innerHTML='';$('rowCount').textContent=''}
+function resetFilters(){fYear.value='2026';fMonth.value='Todos';fEditor.value='Todos';fOpen.value='Todos';clearDashboardCache();schedulePublicRefresh()}
+fMonth.addEventListener('change',schedulePublicRefresh);fEditor.addEventListener('change',schedulePublicRefresh);fOpen.addEventListener('change',schedulePublicRefresh);init();
+</script></body></html>
